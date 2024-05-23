@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-image: url('../images/Desktop.svg');
+    background-size: cover;
+    width: 100%;
+    overflow-x: hidden;
+    direction: rtl;
+    --color-theme: #1e3a8a;
+    --color-theme-light : rgb(30 64 175);
+    --color-black: #000000;
+    --color-white : #fff;
+    --color-gray-dark : #4b5563;
+    --color-gray-light :#9ca3af;
+ 
+}
+.containerFitsmart{
+    width: 80%;
+    margin: auto;
+}
+
+.text-color-theme {
+  color: var(--color-theme) !important;
+}
+.text-color-black {
+  color: var(--color-black) ;
+}
+.text-color-white{
+  color: var(--color-white);
+}
+/* .text-color-white{
+  color: var(--color-white);
+} */
+.text-color-gray{
+  color: var(--color-gray-dark);
+}
+.text-color-graylight{
+  color: var(--color-gray-light);
+}
+.text-color-themeLight{
+  color: var(--color-theme-light);
+}
+
+
+
+.btnFitsmart{
+  @apply shadow-2xl  w-full h-[40px] px-5 py-2 rounded-2xl text-center text-sm text-white font-normal bg-gradient-to-t from-blue-950 via-blue-800 to-blue-600
+  
+  }
+
+.btnFitsmart:hover{
+    background: rgb(36, 77, 145);
+    background: linear-gradient(
+      0deg,
+      rgb(31, 67, 126) 0%,
+      rgb(5, 76, 189) 100%
+    );
+    transition: 0.5s;
+    
+}
+
+.formShadow {
+  box-shadow: 0px 4px 44px 0px #7d8da738;
+  background-color: white;
+}
+
+input:focus{
+  outline: none;
+}
+.Multiselect {
+  --ms-font-size: 1rem;
+--ms-ring-width: 1px;
+--ms-ring-color: #69b6fff5;
+--ms-placeholder-color: #0a2149;
+--ms-option-font-size: 0.75rem;
+--ms-option-color-pointed: #1F2937;
+--ms-option-bg-selected: #1075b9;
+--ms-option-bg-selected-pointed: #34527c;
+--ms-option-color-selected-disabled: #6d7e97;
+--ms-empty-color: #4B5563;
+--ms-border-width: 0px;
+}
