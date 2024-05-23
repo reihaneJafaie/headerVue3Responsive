@@ -6,10 +6,7 @@
           <!-- <X /> -->
           X
         </span>
-        <router-link @click="closeMenu" to="/">
-          <!-- <logo /> -->
-          123
-         </router-link>
+        <img src="../assets/images/1.png" class="w-[150px]" alt="">
       </div>
     </div>
     <ul class="flex flex-col gap-y-8 mt-10 p-10">
@@ -42,15 +39,15 @@
 // import plus from "../icon/plus.vue";
 import { ref } from "vue";
 let menu = [
-{
+  {
     id: 1,
-    title: "صفحه اصلی",
-    route: '/'
+    title: "Home",
+    route: "/",
   },
   {
     id: 2,
-    title: "پزشکان",
-    route: '/list-doctor'
+    title: "Doctors",
+    route: "/list-doctor",
     // child: [
     //   {
     //     title: "پوست",
@@ -65,24 +62,14 @@ let menu = [
   },
   {
     id: 3,
-    title: "مقالات",
-    route: '/weblogs'
+    title: "Weblogs",
+    route: "/weblogs",
   },
   {
     id: 4,
-    title: "سوالات متداول",
-    route: '/faq'
-  },
-  {
-    id: 5,
-    title: "درباره ما",
-    route: '/about'
-  },
-  {
-    id: 6,
-    title: "تماس با ما",
-    route: '/contact-us'
-  },
+    title: "FAQ",
+    route: "/faq",
+  }
 ];
 
 

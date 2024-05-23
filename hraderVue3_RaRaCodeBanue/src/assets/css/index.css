@@ -16,7 +16,7 @@ body{
     --color-gray-light :#9ca3af;
  
 }
-.containerFitsmart{
+.containerRaRa{
     width: 80%;
     margin: auto;
 }
@@ -30,9 +30,7 @@ body{
 .text-color-white{
   color: var(--color-white);
 }
-/* .text-color-white{
-  color: var(--color-white);
-} */
+
 .text-color-gray{
   color: var(--color-gray-dark);
 }
@@ -45,12 +43,12 @@ body{
 
 
 
-.btnFitsmart{
+.btnRaRa{
   @apply shadow-2xl  w-full h-[40px] px-5 py-2 rounded-2xl text-center text-sm text-white font-normal bg-gradient-to-t from-blue-950 via-blue-800 to-blue-600
   
   }
 
-.btnFitsmart:hover{
+.btnRaRa:hover{
     background: rgb(36, 77, 145);
     background: linear-gradient(
       0deg,
@@ -61,24 +59,3 @@ body{
     
 }
 
-.formShadow {
-  box-shadow: 0px 4px 44px 0px #7d8da738;
-  background-color: white;
-}
-
-input:focus{
-  outline: none;
-}
-.Multiselect {
-  --ms-font-size: 1rem;
---ms-ring-width: 1px;
---ms-ring-color: #69b6fff5;
---ms-placeholder-color: #0a2149;
---ms-option-font-size: 0.75rem;
---ms-option-color-pointed: #1F2937;
---ms-option-bg-selected: #1075b9;
---ms-option-bg-selected-pointed: #34527c;
---ms-option-color-selected-disabled: #6d7e97;
---ms-empty-color: #4B5563;
---ms-border-width: 0px;
-}

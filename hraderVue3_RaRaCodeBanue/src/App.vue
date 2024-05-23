@@ -1,12 +1,12 @@
 <template>
-  <section class="relative w-full">
+  <section class="relative ">
     <header
       class="mt-6 mb-20 bg-white relative rounded-full shadow-lg py-3"
       dir="rtl"
     >
       <nav class="flex justify-between items-center px-3">
         <div class="flex gap-x-8 items-center">
-          <img src="./assets/images/1.png" class="w-[10%] rounded-full" alt="">
+          <img src="./assets/images/1.png" class="w-[100px] rounded-full" alt="">
           <ul class="flex gap-x-2 md:ullist">
             <li v-for="item in menu" class="items text-nowrap px-4 py-2">
               <router-link :to="item.route" class="text-sm">{{
@@ -28,7 +28,7 @@
         </div>
         <div class="ml-5">
           <router-link to="/login-dr">
-            <button class="hidden md:block btnFitsmart text-nowrap	"> Login / signin</button>
+            <button class="hidden md:block btnRaRa text-nowrap	"> Login / signin</button>
           </router-link>
 
           <button
